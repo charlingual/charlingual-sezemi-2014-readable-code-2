@@ -27,8 +27,8 @@ class Title(object):
 if __name__ == "__main__":
     title = Title()
     title.register()
-    #title.cat()
-    title.search()
+    title.cat()
+    #title.search()
 
 
 
