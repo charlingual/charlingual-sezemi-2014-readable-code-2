@@ -23,3 +23,9 @@ python
 * メンバ変数として(番号,タイトル)の組の辞書ファイルであるtitles、番号を記憶するためのnumberを持つ
 * メンバ関数としてファイルから内容を読みtitlesに登録するregister、titlesの内容を出力するcatがある
 * mainで呼ばれるとregister,catが実行される
+
+
+###仕様6
+* spec5.pyにそのまま実装してしまった
+* メンバ関数としてsearchを追加、コマンドラインを読んできて登録されたidのタイトルをprintする
+* ※searchを実行する前に必ずregisterを実行すること

@@ -1,5 +1,7 @@
 # coding: utf-8
 
+import sys
+
 class Title(object):
     def __init__(self):
         self.titles = {}
@@ -16,8 +18,22 @@ class Title(object):
             print "%d: %s" % (key, value)
 
 
+    def search(self):
+        argv = sys.argv
+        print "%s" % (self.titles[int(argv[1])])
+
+
 
 if __name__ == "__main__":
     title = Title()
     title.register()
-    title.cat()
+    #title.cat()
+    title.search()
+
+
+
+
+
+
+
+
