@@ -1,10 +1,11 @@
 # coding: utf-8
 
-def write_title():
-    with open('title.txt', 'w') as f:
-        f.write("オムライス\n")
+def read_title():
+    with open('title.txt', "r") as f:
+        for line in f:
+            print line,
 
 
 
 if __name__ == "__main__":
-    write_title()
+    read_title()
